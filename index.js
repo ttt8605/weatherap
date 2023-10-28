@@ -46,35 +46,35 @@ form.addEventListener('submit',async function(e){
         if(wheatherCode == 0,1){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
            } else if(wheatherCode == 2){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/semicloudy.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/semicloudy.png')
            }else if(wheatherCode == 3){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src' ,'/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/cloudy.png')
+            icon.setAttribute('src' ,'https://github.com/ttt8605/wheatherap/blob/main/cloudy.png')
            }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute( 'src', '/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/raining.png')
+            icon.setAttribute( 'src', 'https://github.com/ttt8605/wheatherap/blob/main/raining.png')
            } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/snowing.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/snowing.png')
            }else if(wheatherCode == 95,96,99){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/thunderstorm.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/thunderstorm.png')
            } else if(wheatherCode == 45,48){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
            } else {
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
            }
         
         
@@ -104,35 +104,35 @@ form.addEventListener('submit',async function(e){
           if(wheatherCode == 0,1){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
           }else if(wheatherCode == 2){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/semycloudyday.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/semycloudyday.png')
            }else if(wheatherCode == 3){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src' ,'/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/cloudy.png')
+            icon.setAttribute('src' ,'https://github.com/ttt8605/wheatherap/blob/main/cloudy.png')
            }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute( 'src', '/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/raining.png')
+            icon.setAttribute( 'src', 'https://github.com/ttt8605/wheatherap/blob/main/raining.png')
            } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/snowing.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/snowing.png')
            }else if(wheatherCode == 95,96,99){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/thunderstorm.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/thunderstorm.png')
            }else if(wheatherCode == 45,48){
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
            } else {
             const icon = document.querySelector('#sun');
             icon.removeAttribute('src')
-            icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
            } 
         
            
@@ -194,110 +194,114 @@ location();
                 loc3.classList.add('locationnight');
                 //clear sky
                 if(wheatherCode == 0,1){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
-                 } else if(wheatherCode == 2){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/semicloudy.png')
-                 }else if(wheatherCode == 3){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src' ,'/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/cloudy.png')
-                 }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute( 'src', '/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/raining.png')
-                 } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/snowing.png')
-                 }else if(wheatherCode == 95,96,99){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/thunderstorm.png')
-                 } else if(wheatherCode == 45,48){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
-                 } else {
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
-                 }
-              
-              
-      
-             
-              const but = document.querySelector('button')
-              but.setAttribute('class','but')
-      
-              const inpt = document.querySelector('input')
-              inpt.removeAttribute('class')
-              inpt.setAttribute('class','searchCityNight')
-              
-      
-          }
-          //day
-          else if(nightOrDay == 1 ){
-              document.body.removeAttribute('class')
-              document.body.classList.add('sunny')
-      
-              const temp1 = document.querySelector("h1")
-              temp1.removeAttribute('class')
-              temp1.classList.add('temp')
-      
-              const loc3 = document.querySelector("h2")
-              loc3.removeAttribute('class')
-              loc3.classList.add('location')
-                if(wheatherCode == 0,1){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
-                }else if(wheatherCode == 2){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/semycloudyday.png')
-                 }else if(wheatherCode == 3){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src' ,'/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/cloudy.png')
-                 }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute( 'src', '/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/raining.png')
-                 } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/snowing.png')
-                 }else if(wheatherCode == 95,96,99){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/thunderstorm.png')
-                 }else if(wheatherCode == 45,48){
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
-                 } else {
-                  const icon = document.querySelector('#sun');
-                  icon.removeAttribute('src')
-                  icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
-                 } 
-                
-                   
-                const but = document.querySelector('button')
-                but.removeAttribute('class')
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
+           } else if(wheatherCode == 2){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/semicloudy.png')
+           }else if(wheatherCode == 3){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src' ,'https://github.com/ttt8605/wheatherap/blob/main/cloudy.png')
+           }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute( 'src', 'https://github.com/ttt8605/wheatherap/blob/main/raining.png')
+           } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/snowing.png')
+           }else if(wheatherCode == 95,96,99){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/thunderstorm.png')
+           } else if(wheatherCode == 45,48){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
+           } else {
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
+           }
         
-                const inpt = document.querySelector('input')
-                inpt.removeAttribute('class')
-                inpt.setAttribute('class','searchCity')
-            }
-            
-            
-        }
-        location();
-      };
+        
+
+       
+        const but = document.querySelector('button')
+        but.setAttribute('class','but')
+
+        const inpt = document.querySelector('input')
+        inpt.removeAttribute('class')
+        inpt.setAttribute('class','searchCityNight')
+        
+
+    }
+    //day
+    else if(nightOrDay == 1 ){
+        document.body.removeAttribute('class')
+        document.body.classList.add('sunny')
+
+        const temp1 = document.querySelector("h1")
+        temp1.removeAttribute('class')
+        temp1.classList.add('temp')
+
+        const loc3 = document.querySelector("h2")
+        loc3.removeAttribute('class')
+        loc3.classList.add('location')
+          if(wheatherCode == 0,1){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
+          }else if(wheatherCode == 2){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/semycloudyday.png')
+           }else if(wheatherCode == 3){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src' ,'https://github.com/ttt8605/wheatherap/blob/main/cloudy.png')
+           }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute( 'src', 'https://github.com/ttt8605/wheatherap/blob/main/raining.png')
+           } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/snowing.png')
+           }else if(wheatherCode == 95,96,99){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/thunderstorm.png')
+           }else if(wheatherCode == 45,48){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
+           } else {
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
+           } 
+        
+           
+        const but = document.querySelector('button')
+        but.removeAttribute('class')
+
+        const inpt = document.querySelector('input')
+        inpt.removeAttribute('class')
+        inpt.setAttribute('class','searchCity')
+    }
+    
+    
+}
+
+location();
+
+
+
+}
 
       
 
@@ -343,115 +347,117 @@ location();
             loc3.removeAttribute('class');
             loc3.classList.add('locationnight');
             //clear sky
-            if(wheatherCode == 0,1){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
-             } else if(wheatherCode == 2){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/semicloudy.png')
-             }else if(wheatherCode == 3){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src' ,'/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/cloudy.png')
-             }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute( 'src', '/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/raining.png')
-             } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/snowing.png')
-             }else if(wheatherCode == 95,96,99){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/thunderstorm.png')
-             } else if(wheatherCode == 45,48){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
-             } else {
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork_2.png')
-             }
-          
-          
-  
-         
-          const but = document.querySelector('button')
-          but.setAttribute('class','but')
-  
-          const inpt = document.querySelector('input')
-          inpt.removeAttribute('class')
-          inpt.setAttribute('class','searchCityNight')
-          
-  
-      }
-      //day
-      else if(nightOrDay == 1 ){
-          document.body.removeAttribute('class')
-          document.body.classList.add('sunny')
-  
-          const temp1 = document.querySelector("h1")
-          temp1.removeAttribute('class')
-          temp1.classList.add('temp')
-  
-          const loc3 = document.querySelector("h2")
-          loc3.removeAttribute('class')
-          loc3.classList.add('location')
-            if(wheatherCode == 0,1){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
-            }else if(wheatherCode == 2){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/semycloudyday.png')
-             }else if(wheatherCode == 3){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src' ,'/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/cloudy.png')
-             }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute( 'src', '/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/raining.png')
-             } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/snowing.png')
-             }else if(wheatherCode == 95,96,99){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/thunderstorm.png')
-             }else if(wheatherCode == 45,48){
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
-             } else {
-              const icon = document.querySelector('#sun');
-              icon.removeAttribute('src')
-              icon.setAttribute('src','/Users/elonmusk/Library/CloudStorage/OneDrive-Personal/programing/proiecte/wheather api/Untitled_Artwork.png')
-             } 
-            
-               
-            const but = document.querySelector('button')
-            but.removeAttribute('class')
-    
-            const inpt = document.querySelector('input')
-            inpt.removeAttribute('class')
-            inpt.setAttribute('class','searchCity')
-        }
+             if(wheatherCode == 0,1){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
+           } else if(wheatherCode == 2){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/semicloudy.png')
+           }else if(wheatherCode == 3){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src' ,'https://github.com/ttt8605/wheatherap/blob/main/cloudy.png')
+           }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute( 'src', 'https://github.com/ttt8605/wheatherap/blob/main/raining.png')
+           } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/snowing.png')
+           }else if(wheatherCode == 95,96,99){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/thunderstorm.png')
+           } else if(wheatherCode == 45,48){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
+           } else {
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork_2.png')
+           }
         
+        
+
+       
+        const but = document.querySelector('button')
+        but.setAttribute('class','but')
+
+        const inpt = document.querySelector('input')
+        inpt.removeAttribute('class')
+        inpt.setAttribute('class','searchCityNight')
+        
+
     }
-    location();
+    //day
+    else if(nightOrDay == 1 ){
+        document.body.removeAttribute('class')
+        document.body.classList.add('sunny')
+
+        const temp1 = document.querySelector("h1")
+        temp1.removeAttribute('class')
+        temp1.classList.add('temp')
+
+        const loc3 = document.querySelector("h2")
+        loc3.removeAttribute('class')
+        loc3.classList.add('location')
+          if(wheatherCode == 0,1){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
+          }else if(wheatherCode == 2){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/semycloudyday.png')
+           }else if(wheatherCode == 3){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src' ,'https://github.com/ttt8605/wheatherap/blob/main/cloudy.png')
+           }else if(wheatherCode == 51,53,55,61,63,65,80, 81, 82){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute( 'src', 'https://github.com/ttt8605/wheatherap/blob/main/raining.png')
+           } else if(wheatherCode == 56, 57,66, 67 ,71, 73, 75,77,85, 86){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/snowing.png')
+           }else if(wheatherCode == 95,96,99){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/thunderstorm.png')
+           }else if(wheatherCode == 45,48){
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
+           } else {
+            const icon = document.querySelector('#sun');
+            icon.removeAttribute('src')
+            icon.setAttribute('src','https://github.com/ttt8605/wheatherap/blob/main/Untitled_Artwork.png')
+           } 
+        
+           
+        const but = document.querySelector('button')
+        but.removeAttribute('class')
+
+        const inpt = document.querySelector('input')
+        inpt.removeAttribute('class')
+        inpt.setAttribute('class','searchCity')
+    }
+    
+    
+}
+
+location();
+
+
+
+}
      
-      };
+      
       
       navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
-      
-     
-
-
 
