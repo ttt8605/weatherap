@@ -151,7 +151,7 @@ top: -28px;
 
 .holder{
    
-   width: 700px;
+   width: 441px;
    height: 980px;
    display: flex;
    flex-direction: column;
@@ -221,7 +221,7 @@ button:active{
 
 
 .main{
-    width: 700px;
+    width: 441px;
    height: 700px;
    display: flex;
    flex-direction: column;
