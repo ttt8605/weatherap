@@ -151,7 +151,7 @@ top: -28px;
 
 .holder{
    
-   width: 441px;
+   width: 50vh;
    height: 980px;
    display: flex;
    flex-direction: column;
@@ -221,7 +221,7 @@ button:active{
 
 
 .main{
-    width: 441px;
+    width: 50vh;
    height: 700px;
    display: flex;
    flex-direction: column;
@@ -229,8 +229,8 @@ button:active{
    
 }
 .wheather-emote{
-     width: 479px;
-     height: 460px;
+     width: 360px;
+     height: 348px;
    
 }
 .temp{
