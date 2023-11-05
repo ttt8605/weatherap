@@ -39,7 +39,7 @@ background: linear-gradient(144deg, rgba(88,100,123,1) 0%, rgba(76,98,140,1) 0%,
    
 }
 .searchCity{
-    width: 441px;
+    width: 261px;
     height:37px;
     background-color: rgba(154,197,244,1);
     color: #252525;
@@ -52,7 +52,7 @@ background: linear-gradient(144deg, rgba(88,100,123,1) 0%, rgba(76,98,140,1) 0%,
 }
 /* night version */
 .searchCityNight{
-    width: 441px;
+    width: 261px;
     height:37px;
     background-color: #ffdfb7;
     color: #252525;
