@@ -151,7 +151,7 @@ top: -28px;
 
 .holder{
    
-   width: 50vh;
+   width: 73vh;
    height: 980px;
    display: flex;
    flex-direction: column;
@@ -160,7 +160,7 @@ top: -28px;
    
 }
 .searchCity{
-    width: 175px;
+    width: 120px;
     height:37px;
     background-color: rgba(154,197,244,1);
     color: #252525;
@@ -173,7 +173,7 @@ top: -28px;
 }
 /* night version */
 .searchCityNight{
-    width: 175px;
+    width: 120px;
     height:37px;
     background-color: #ffdfb7;
     color: #252525;
